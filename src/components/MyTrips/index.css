@@ -1,0 +1,47 @@
+.my-trips-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  font-family: 'Roboto';
+}
+
+.no-trips-heading {
+  color: #1e293b;
+  font-size: 25px;
+}
+
+.no-trips-description {
+  color: #1e293b;
+  font-size: 18px;
+}
+
+.book-trip-button {
+  background-color: #2563eb;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.trips-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid cbd5e1;
+  padding: 20px;
+}
+
+.trips-heading {
+  color: #304766;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+  margin-left: 40px;
+}
+
+.trips-list {
+  list-style-type: none;
+}

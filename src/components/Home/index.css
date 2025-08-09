@@ -1,0 +1,41 @@
+.home-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-family: 'Roboto';
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #334155;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.home-img {
+  width: 250px;
+  margin: 10px;
+}
+
+.description {
+  color: #334155;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.book-trip-button {
+  background-color: #1e293b;
+  color: #ffffff;
+  font-size: 15px;
+  border-width: 0px;
+  border-radius: 6px;
+  padding: 15px;
+  margin-top: 20px;
+}

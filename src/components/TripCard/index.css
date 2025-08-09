@@ -1,0 +1,44 @@
+.trip-card-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.trip-location {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.trip-date-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.trip-date {
+  color: #64748b;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.trip-duartion {
+  font-size: #1e293b;
+}
+
+.cancel-button {
+  background-color: transparent;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px;
+}

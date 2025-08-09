@@ -1,0 +1,303 @@
+.details-container {
+  background-color: #304766;
+  width: 80vw;
+  height: 80vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.details-heading {
+  color: #ffffff;
+}
+
+.details-description {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.form-details {
+  background-color: #fff;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  padding-top: 50px;
+  margin: 50px;
+}
+
+.card-details {
+  background-color: #fff;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 50px;
+  margin: 50px;
+}
+
+.details-card {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
+
+.label {
+  color: #1e293b;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.label-card {
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.user-input {
+  height: 40px;
+  width: 400px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #64748b;
+  padding: 10px;
+}
+
+.empty-card {
+  border: 1px solid red;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.guest-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.guest-age {
+  color: #64748b;
+  font-size: 16px;
+}
+
+.guests-button-container {
+  display: flex;
+}
+
+.details-list {
+  list-style-type: none;
+}
+
+.guests-btn {
+  background-color: transparent;
+  border: 1px solid #cbd5e1;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 10px;
+  padding: 2px;
+}
+
+.guests-count {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.line {
+  border: 1px solid #64748b;
+}
+
+.previous-btn {
+  background-color: #dbeafe;
+  color: #2563eb;
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  border-width: 0px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.next-btn {
+  background-color: #2563eb;
+  color: #ffffff;
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  border-width: 0px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.travel-assistance-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.travel-checkbox {
+  margin-right: 10px;
+}
+
+.travel-selection-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.travel-selection-label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.travel-assistance-select {
+  font-size: 15px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  width: 400px;
+  height: 30px;
+}
+
+.travel-Trip-container {
+  background-color: #dbeafe;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.new-trip-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+}
+
+.left-container {
+  background-color: #ffffff;
+  width: 30%;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.step-img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.step-number {
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.step-number-active {
+  background-color: #2563eb;
+  color: #ffffff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  color: #2563eb;
+}
+
+.confirmation-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.confirmation-value {
+  color: #1e293b;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.cancel-button {
+  background-color: #dbeafe;
+  color: #2563eb;
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  border-width: 0px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.confirm-button {
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 14px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  border-width: 0px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.confirm-msg-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.confirm-img {
+  width: 80px;
+}
+
+.confirm-heading {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.confirm-description {
+  color: #1e293b;
+  font-size: 18px;
+}
